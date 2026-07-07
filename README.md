@@ -1,6 +1,6 @@
 # Candidate Management System
 
-A Flask-based Candidate Management System developed as part of a technical interview assignment.
+A Flask-based Candidate Management System built from a real software engineering interview assignment. The application streamlines candidate registration, eligibility evaluation, Round 1 scoring, automatic shortlisting, and candidate search/filter operations through a clean and responsive web interface.
 
 This application helps recruiters register candidates, automatically determine eligibility, evaluate Round 1 performance, shortlist candidates, and search/filter records efficiently.
 
