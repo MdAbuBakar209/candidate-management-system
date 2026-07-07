@@ -162,5 +162,6 @@ python app.py
 
 **Md Abu Bakar**
 
-GitHub:
-https://github.com/MdAbuBakar209
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://candidate-management-system-f8l2.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/MdAbuBakar209/candidate-management-system)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge)](https://mdabubakar-portfolio.netlify.app/)
