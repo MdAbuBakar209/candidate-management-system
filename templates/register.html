@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Candidate</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h2>Candidate Registration</h2>
+
+<form action="/add" method="POST">
+
+<div class="mb-3">
+<label>Full Name</label>
+<input 
+type="text" 
+class="form-control" 
+name="name" required>
+</div>
+
+<div class="mb-3">
+<label>Email</label>
+<input 
+type="email" 
+class="form-control" 
+name="email" required>
+</div>
+
+<div class="mb-3">
+<label>Mobile Number</label>
+<input 
+type="text" 
+class="form-control" 
+name="mobile" required>
+</div>
+
+<div class="mb-3">
+<label>Department</label>
+
+<select class="form-control" name="department" required>
+
+<option value="">Select</option>
+
+<option>CS</option>
+<option>CSE</option>
+<option>IT</option>
+<option>ECE</option>
+<option>EE</option>
+<option>ME</option>
+<option>Civil</option>
+
+</select>
+
+</div>
+
+<div class="mb-3">
+<label>Graduation Percentage / CGPA</label>
+
+<input
+type="number"
+step="0.01"
+class="form-control"
+name="percentage"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label>Active Backlog</label>
+
+<select class="form-control" name="backlog">
+
+<option>No</option>
+<option>Yes</option>
+
+</select>
+
+</div>
+
+<div class="mb-3">
+
+<label>Preferred Tech</label>
+
+<select class="form-control" name="tech">
+
+<option>Java</option>
+<option>Python</option>
+<option>TypeScript</option>
+<option>Other</option>
+
+</select>
+
+</div>
+
+<div class="mb-3">
+
+<label>Skills</label>
+
+<br>
+
+<input 
+type="checkbox" 
+name="skills" 
+value="Gen AI"> 
+Gen AI
+<br>
+
+<input 
+type="checkbox" 
+name="skills" 
+value="Agentic AI"> 
+Agentic AI
+
+<br>
+
+<input 
+type="checkbox" 
+name="skills" 
+value="Full Stack Development"> 
+Full Stack Development
+
+<br>
+
+<input 
+type="checkbox" 
+name="skills" 
+value="Backend Development"> 
+Backend Development
+
+<br>
+
+<input 
+type="checkbox" 
+name="skills" 
+value="Frontend Development"> 
+Frontend Development
+
+<br>
+
+<input 
+type="checkbox" 
+name="skills" value="Database"> 
+Database
+
+</div>
+
+<button class="btn btn-success">
+
+Register Candidate
+
+</button>
+
+<a href="/" class="btn btn-secondary">
+
+Back
+
+</a>
+
+</form>
+
+</body>
+
+</html>
